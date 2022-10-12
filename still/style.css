@@ -1,0 +1,26 @@
+html {
+    background-color: gray;
+}
+
+div {
+    text-align: center;
+}
+
+body {
+    background-color: gray;
+}
+
+.main {
+    background-color: rgb(63, 28, 61);
+    margin-left: 25;
+    margin-right: 25;
+    margin-top: 5;
+    text-align: center;
+    background: fixed;
+    background-position: center;
+}
+
+p, h1, h2, h3, h4 {
+    text-align: center;
+    color: aliceblue;
+}
