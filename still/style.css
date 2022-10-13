@@ -24,3 +24,47 @@ p, h1, h2, h3, h4 {
     text-align: center;
     color: aliceblue;
 }
+
+a {
+    text-decoration: none;
+}
+
+.purple-bg {
+    background-image: linear-gradient(#633e97,#965aeb,#633e97);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.red-bg {
+    background-image: linear-gradient(#ac362d,#f54b3f,#ac362d);
+    color: white;
+    text-align: center;
+}
+
+.green-bg {
+    background-image: linear-gradient(#009425,#19bb41,#009425);
+    color: white;
+    text-align: center;
+}
+
+.yellow-bg {
+    background-image: linear-gradient(#8c9e00,#b6c700,#8c9e00);
+    color: white;
+    text-align: center;
+}
+
+a {
+    color: #DBDBDB;
+    text-decoration: none;
+}
+
+
+table {
+    width: 100%;  
+}
+
+td {
+    border: 2px solid #3c3e42;
+    word-break: normal;
+}
