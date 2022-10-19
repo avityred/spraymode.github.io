@@ -1,0 +1,262 @@
+
+body {
+    background:  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/backgrounds/avityred.gif) no-repeat center center fixed;
+    background-size: cover;
+    image-rendering: optimizespeed;
+    font-family: PixeloidSans, 'Courier New', monospace;
+    color: #f3eaf2;
+    text-align: justify;
+    word-break: break-word;
+}
+
+@font-face {
+    font-family: PixeloidSans;
+    src: url(../PixeloidSans.ttf);
+}
+
+img {
+    vertical-align: middle;
+}
+
+p, b {
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+table {
+    width: 100%;  
+}
+
+td {
+    border: 2px solid #3c3e42;
+    word-break: normal;
+}
+
+input, button {
+    background-color: inherit;
+    color: inherit;
+    font-family: inherit;
+    border: 1px solid #3c3e42;
+    padding: 3px;
+}
+
+button {
+    padding: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.widget-container {
+    display: grid;
+    justify-content: center;
+    grid-auto-flow: column;
+}
+
+.widget-container a {
+    color: inherit;
+}
+
+.widget {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 115px;
+    margin: 10px;
+    background-color: rgba(23, 23, 23, 0.87);
+    border: 8px solid #421647;
+    box-shadow: 0em 0em 1.5em rgba(0, 0, 0, 0.6);
+}
+
+.imgt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    vertical-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.imagewidget {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300;
+    height: 225;
+    margin: 10px;
+    image-resolution: 300 225;
+    background-color: rgba(23, 23, 23);
+    border: 6px solid #9537a1;
+    border-radius: 5px;
+}
+
+.widget span {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.widget:hover {
+    border: 8px solid #792b81;
+    cursor: pointer;
+    width: 225px;
+    height: 140px;
+    box-shadow: 0em 0em 2.3em rgba(0, 0, 0, 0.8);
+}
+
+.webring a {
+    display: inline;
+}
+
+.webring img {
+    width: 100px;
+    height: 30px;
+    border: 3px solid #9537a1;
+    margin: 5px;
+}
+
+.webring img:hover {
+    width: 110px;
+    height: 40px;
+    border: 3px solid #9537a1;
+    margin: 5px;
+}
+
+a:hover {
+    color: rgb(112, 41, 112);
+}
+
+h1 , 
+h2 ,
+table ,
+form ,
+.footer ,
+.widget,
+.webring {
+    text-align: center;
+}
+
+audio {
+    opacity: .9;
+    border: 3px solid #9537a1;
+    border-radius: 6px;
+}
+
+.audioPlay {
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 40px;
+    background-color: rgba(23, 23, 23);
+    padding: 13px;
+    border: 8px solid #9537a1;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.footer {
+    margin-top: 25px;
+}
+
+.highlight {
+    background-color: #000;
+    color: #b014b6;
+    font-size: 18px;
+}
+
+.purple , a {
+    color: #bd93f9;
+}
+
+.red {
+    color: #ff5555;
+}
+
+.yellow {
+    color: #f1fa8c;
+}
+
+.white {
+    color: white;
+}
+
+.purple-bg {
+    background-image: linear-gradient(#633e97,#965aeb,#633e97);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.red-bg {
+    background-image: linear-gradient(#ac362d,#f54b3f,#ac362d);
+    color: white;
+    text-align: center;
+}
+
+.green-bg {
+    background-image: linear-gradient(#009425,#19bb41,#009425);
+    color: white;
+    text-align: center;
+}
+
+.yellow-bg {
+    background-image: linear-gradient(#8c9e00,#b6c700,#8c9e00);
+    color: white;
+    text-align: center;
+}
+
+.content {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 50px;
+    background-color: rgba(23, 23, 23, 0.55);
+    padding: 13px;
+    border: 8px solid #421647;
+    text-align: center;
+}
+
+.articlelist {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 50px;
+    background-color: rgba(23, 23, 23);
+    padding: 13px;
+    border-radius: 5px;
+    border: 6px solid #9537a1;
+    text-align: center;
+    scroll-behavior: smooth;
+    scrollbar-color: white darkslategray;
+}
+
+.pfp {
+    border: 6px solid #8b2b96;
+    border-radius: 8px;
+}
+
+hr {
+    color: #633e97;
+    opacity: 0.5;
+    width: 50%;
+}
+
+@media only screen and (max-width: 900px) {
+     .widget-container {
+        grid-auto-flow: unset;
+        margin-left: 25%;
+        margin-right: 25%;
+     }
+
+     .content {
+         margin-left: 3%;
+         margin-right: 3%;
+     }
+    
+    td {
+        word-break: break-word;
+    }
+}

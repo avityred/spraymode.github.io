@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+    <title>spraymo.de </title>
+    <link>https://spraymo.de</link>
+    <description>cool ass website for cool ass people</description>
+    <language>en-us</language>
+    <item>
+        <title>Changelog</title>
+        <pubDate>Monday, 19th Oct 2022 6:23</pubDate>
+        <p>- Added profiles.</p>
+        <p>- Added visual effects.</p>
+        <p>- Added donation section.</p>
+        <p>- Added contact page.</p>
+        <p>- Added cool_websites page.</p>
+        <p>- Changed website font.</p>
+    </item>
+    <item>
+        <title>Changelog</title>
+        <pubDate>Monday, 17th Oct 2022 8:05</pubDate>
+        <p>- Added article section and about sections.</p>
+        <p>- Moved comparisons from my old website + updated them</p>
+    </item>
+    </channel>
+</rss>
